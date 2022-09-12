@@ -188,15 +188,22 @@ p person["email"]
 
 # 2. Make an array of hashes to store the first name and last name for 3 different people. Then print out the first person's info.
 
-people = [
-  {"first_name" => "an", "last_name" => "an"},
-  {"first_name" => "bo", "last_name" => "bo"},
-  {"first_name" => "ow", "last_name" => "ow"},
-]
-puts people[0]
+# people = [
+#   {"first_name" => "an", "last_name" => "an"},
+#   {"first_name" => "bo", "last_name" => "bo"},
+#   {"first_name" => "ow", "last_name" => "ow"},
+# ]
+# puts people[0]
 
-# 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
+# # 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
 
-menu = {"sode" => 0.99, "fries" => 1.99, "burger" => 5.99}
-menu["salad"] = 2.99
-p menu
+# menu = {"sode" => 0.99, "fries" => 1.99, "burger" => 5.99}
+# menu["salad"] = 2.99
+# p menu
+
+# 1. Make a hash to store a person's first name, last name, and email address. Then print each attribute on separate lines.
+info = {"first_name" => "julian", "last_name" => "anaya", "email" => "test@test"}
+
+puts info["first_name"]
+puts info["last_name"]
+puts info["email"]
