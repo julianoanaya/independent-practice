@@ -244,3 +244,10 @@ puts books_5[2]["author"]
 states = {"california" => "sacromento", "florida" => "tampa", "north dokato" => "idk"} 
 states["new york"] = "new york"
 puts states
+
+# # 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
+
+laptop = {"brand" => "samsun", "model" => "chromebook", "year" => 2020}
+puts laptop["brand"]
+puts laptop["model"]
+puts laptop["year"]
