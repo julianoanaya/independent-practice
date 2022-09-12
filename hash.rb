@@ -239,3 +239,8 @@ books_5 = [
   {"title" => "test2", "author" => "me2"},
 ]
 puts books_5[2]["author"]
+
+# # 6. Make a hash to store 3 different states and their captitals. Then add a new state and capital and print the hash to see the result.
+states = {"california" => "sacromento", "florida" => "tampa", "north dokato" => "idk"} 
+states["new york"] = "new york"
+puts states
