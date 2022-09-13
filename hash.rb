@@ -258,3 +258,12 @@ info = {"first_name" => "julian", "last_name" => "anaya", "email" => "test@test"
 puts info["first_name"]
 puts info["last_name"]
 puts info["email"]
+
+# 2. Make an array of hashes to store the first name and last name for 3 different people. Then print out the first person's info.
+
+people = [
+  {"first_name" => "an", "last_name" => "an"},
+  {"first_name" => "bo", "last_name" => "bo"},
+  {"first_name" => "ow", "last_name" => "ow"},
+]
+puts people[0]
