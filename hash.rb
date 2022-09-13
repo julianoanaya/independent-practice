@@ -251,3 +251,10 @@ laptop = {"brand" => "samsun", "model" => "chromebook", "year" => 2020}
 puts laptop["brand"]
 puts laptop["model"]
 puts laptop["year"]
+
+# 1. Make a hash to store a person's first name, last name, and email address. Then print each attribute on separate lines.
+info = {"first_name" => "julian", "last_name" => "anaya", "email" => "test@test"}
+
+puts info["first_name"]
+puts info["last_name"]
+puts info["email"]
