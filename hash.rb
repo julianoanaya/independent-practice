@@ -273,3 +273,11 @@ puts people[0]
 stores = {"salad" => 5, "burger" => 10, "fires" => 1.99}
 stores["drink"] = 0.99
 p stores
+
+# # 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
+
+book = {"title" => "harry potter", "author" => "me", "pages" => 432, "language" => "english"}
+p book["title"]
+p book["author"]
+p book["pages"]
+p book["language"]
