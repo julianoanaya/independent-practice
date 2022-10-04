@@ -306,3 +306,9 @@ people = [
   {"first_name" => "ow", "last_name" => "ow"},
 ]
 puts people[0]
+
+# 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
+
+stores = {"salad" => 5, "burger" => 10, "fires" => 1.99}
+stores["drink"] = 0.99
+p stores
