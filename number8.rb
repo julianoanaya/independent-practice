@@ -69,3 +69,10 @@ def muit_add(number)
   number = number + 30
 end
 p muit_add(5)
+
+# 1. Write a function that takes in a number and returns the number times two. Then run the function and print the result.
+
+def muti(number)
+  number = number * 2
+end
+p muti(2)
