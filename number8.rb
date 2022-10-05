@@ -97,3 +97,10 @@ def muti1(number)
   number = number * number
  end
  p muti1(5)
+
+# 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
+
+def first_letter(string)
+  string.chr
+end
+p first_letter("hellowoorld")
