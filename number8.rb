@@ -203,3 +203,10 @@ def muti_string(string1, string2, string3)
   string1  +  string2  +  string3
 end
 puts muti_string("my ", "name ", "is ")
+
+# 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
+
+def num_to_string(number)
+  number.to_s
+end
+p num_to_string(4213)
