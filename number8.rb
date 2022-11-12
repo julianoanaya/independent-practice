@@ -160,3 +160,11 @@ def muti_string(string1, string2, string3)
   string1  +  string2  +  string3
 end
 puts muti_string("he ", "llo ", "hello")
+
+# 1. Write a function that takes in a number and returns the number times two. Then run the function and print the result.
+
+def muti(number)
+  number = number * 2
+end
+p muti(2)
+
