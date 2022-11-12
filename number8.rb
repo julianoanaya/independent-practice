@@ -174,3 +174,11 @@ def uppercase(string)
   string.upcase
 end
 puts uppercase("hi")
+
+# 3. Write a function that takes in two numbers and returns the first number subtracted by the second. Then run the function and print the result.
+
+def sub(array)
+  number = array[0] - array[1]
+  return number
+end
+p sub([100,1])
