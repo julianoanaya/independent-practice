@@ -226,3 +226,11 @@ def average(number1, number2, number3)
   aver = newnum / 3.0
 end
 p average(2,21,10)
+
+# 10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
+
+def muit_add(number)
+  number = number * 10
+  number = number + 30
+end
+p muit_add(6)
