@@ -182,3 +182,10 @@ def sub(array)
   return number
 end
 p sub([100,1])
+
+# 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
+
+def muti1(number)
+  number = number * number
+ end
+ p muti1(25)
