@@ -196,3 +196,10 @@ def first_letter(string)
   string.chr
 end
 p first_letter("baby")
+
+# 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
+
+def muti_string(string1, string2, string3)
+  string1  +  string2  +  string3
+end
+puts muti_string("my ", "name ", "is ")
