@@ -217,3 +217,12 @@ def five_string(string)
   5.times {p string}
 end
 five_string("my name is pogchamp")
+
+
+# 9. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
+
+def average(number1, number2, number3)
+  newnum = number1 + number2 + number3
+  aver = newnum / 3.0
+end
+p average(2,21,10)
